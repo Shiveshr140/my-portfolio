@@ -80,9 +80,10 @@ body {
 .cta-button{
   align-self: flex-start;
   font-size:1.1em;
-  padding: .8rem 1.5rem .8em 1.5rem;
-  border:none;
-  border-radius: 1rem;
+  padding: .6rem 1.3rem .6em 1.3rem;
+  border: none;
+  border-radius: 100px;
+  background-color: #ccc;
 }
 
 .cta-button a{
