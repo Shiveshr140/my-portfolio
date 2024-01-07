@@ -1,0 +1,135 @@
+.contact{
+    width:40%;
+    border: 2px solid rgb(247, 247, 247);
+    padding: 1em;
+    box-shadow: 4px 4px 0px 0px #f56565;
+}
+
+.form{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}
+
+.form__input{
+    margin:.4rem;
+    padding: 1rem .75rem 1rem .75rem;
+    outline:none;
+    border: none;
+    background-color: #e4e1e1;
+}
+
+.form__input:hover{
+    height: 48px;
+    outline:none;
+    border-bottom: 1.5px solid #f56565;
+}
+
+.message{
+    height:100px;
+    padding: .5rem .75rem 1rem .75rem;
+    font-size:1.2em;
+}
+
+.message:hover{
+    height:100px;
+    outline:none;
+    border-bottom: 1.5px solid orangered;
+}
+
+.form__label{
+    align-self: flex-start;
+    margin: 0.3em;
+    font-size: 1.4em;
+}
+
+.form__button{
+    margin-left:auto;
+    margin-right:.5rem;
+    margin-top:.5rem;
+    padding: .75rem 1.5rem .75rem 1.5rem;
+    border:none;
+    font-size:1.1rem;
+}
+
+
+.hidden{
+    display: none;
+}
+
+.div-msg{
+    display:flex;
+    flex-direction: column;
+    border: 2px solid rgb(247, 247, 247);
+    padding: 1em;
+    box-shadow: 4px 4px 0px 0px #f56565;
+}
+
+
+
+
+@media screen and (max-width: 1050px){
+    .contact{
+        width:50%;
+    }
+    
+}
+
+@media screen and (max-width: 900px){
+    .contact{
+        width:60%;
+    }
+    .message{
+        height:70px
+    }
+    .message:hover{
+        height:70px;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .contact{
+        width:60%;
+    }
+    .message{
+        height:60px
+    }
+    .message:hover{
+        height:60px;
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+    .contact{
+        width:70%;
+    }
+    
+    .form__input{
+        padding: .8rem .55rem .8rem .55rem;
+    }
+
+    .form__input:hover{
+        height:41.6px;
+    }    
+    
+    .message{
+        height:55px
+    }
+    .message:hover{
+        height:55px;
+    }
+
+    .form__label{
+        margin:.2rem;
+        font-size:1em;
+    }
+
+    .form__button{
+        padding: .55rem 1.3rem .55rem 1.3rem;
+        border:none;
+        font-size:.8rem;
+    }
+    
+}

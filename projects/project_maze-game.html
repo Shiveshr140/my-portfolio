@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="../static/projects.css">
+    <title>Maze-Game</title>
+</head>
+<body class="body-projects" data-slug="maze-game">
+    <header class="header"> 
+        <h1 class="header__link"> Shivesh Rajput </h1>
+        <nav class="nav">    
+            <a href="../index.html" class="nav__link" > 
+                Home  </a>
+            <a href="../projects.html" class="nav__link" > 
+                    Projects Gallery  </a>
+
+            <a href="../skills.html" class="nav__link">
+                    Skills    </a>
+
+            <a href="../contact.html" class="nav__link"> 
+                 Contact   </a>
+        </nav>
+</header> 
+    <main class="main main--project">
+        <div>
+            <img
+                class="hero"
+                src="{{ url_for('static', filename=project['hero']) }}"
+                alt="A hand holding a pen, about to write something in a project planner."
+            />
+
+            <article class="project">
+                <article class="project__content">
+                    <h2 class="project__heading">{{ project['name'] }}</h2>
+
+                    <p>
+                        The project combines maze generation algorithms, physics simulations, and user input to create an engaging 
+                        and challenging gaming experience, that showcases my passion for game development and proficiency in web technologies.                   
+                    </p>
+                    <p>
+                        The game dynamically generates random mazes using a recursive backtracking algorithm, providing a unique and 
+                        challenging layout for each playthrough. The project is designed to be responsive, ensuring an optimal 
+                        gaming experience on both desktop and mobile devices. Touch controls are implemented for mobile users, 
+                        offering a seamless and intuitive interaction.
+                    </p>
+                    <p>
+                        Leveraging the Matter.js physics engine, the game features realistic ball movement and collisions 
+                        with maze walls. The physics simulation enhances the overall gaming experience and adds an element 
+                        of realism.
+                    </p>
+
+                    <p>
+                        The goal of the game is to navigate the ball through the maze and reach the green goal area. 
+                        Upon successful completion, the player is notified of their victory.
+                        
+                    </p>
+                </article>
+
+                <section class="section-project">
+                    <article class="project__meta-group">
+                        <h3 class="project__heading project__heading--meta">Technologies used</h3>
+
+                        <ul class="technology-list">
+                            <li class="technology-list__item">Java Script</li>
+                            <li class="technology-list__item">Matter Js</li>
+                            <li class="technology-list__item">HTML</li>
+                        </ul>
+                    </article>
+
+                    <a class="cta" href="{{ project['prod'] }}">
+                        <img class="cta__icon" src="{{ url_for('static', filename='pointer.svg') }}">
+                        View in production
+                    </a>
+                </section>
+            </article>
+        </div>
+    </main>
+    <script src="../js/index.js"></script>
+    <script src="../js/projects.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+    

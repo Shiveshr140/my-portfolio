@@ -1,0 +1,184 @@
+*,
+*::after,
+*::before {
+    box-sizing:border-box;
+}
+
+html {
+    font-family: Lato, "sans-serif";
+}
+
+
+body {
+    margin: 0px;
+    color:whitesmoke;
+    background-color: #494747;
+}
+
+
+.header {
+   display:flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0em .05rem 1.7rem .05rem;
+   padding: .5rem .5rem .5rem .3rem;
+   border-bottom: 2px solid rgb(255, 251, 251);
+   background-color: #494747;
+   font-size: 1.2em;
+}
+
+.header__link{
+  align-self: center;
+  margin-left: 1em;
+  font-size: 1.4em;
+  font-weight:bold;
+  color:white;
+}
+
+.nav {
+  display:flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  color:white
+
+}
+
+
+.nav__link {
+    text-decoration: none;
+    color:inherit;
+    margin-right: 3.5rem;
+
+}
+
+.nav__link:not(:last-of-type) {
+    margin-right: 1.5rem;       
+}
+
+.nav__link:last-of-type {
+    margin-right: 0rem;       
+}
+
+.active-home, .active-skills, .active-contact, .active-projects{
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-skip-ink: auto;
+}
+
+
+.main {
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+}
+
+.cta-button{
+  align-self: flex-start;
+  font-size:1.1em;
+  padding: .8rem 1.5rem .8em 1.5rem;
+  border:none;
+  border-radius: 1rem;
+}
+
+.cta-button a{
+  text-decoration: none ;
+  color:inherit;
+}
+.cta-button:hover, .cta-button a:hover{
+  color:white;
+  cursor: pointer;
+  background-color:#2a4c65
+}
+
+.intro-div{
+  display:flex;
+  align-items: center;
+
+}
+
+.github-img{
+  width:2em;
+  height: 2em;
+  margin-left:.75rem;
+}
+
+.linkedin-img{
+  width:2em;
+  height: 2em;
+  margin-left:.75rem;
+}
+
+.gmail-img{
+  width:2em;
+  height: 2em;
+  margin-left:.75rem;
+}
+
+.main--introduction
+{
+    flex-direction: column;
+    max-width:700px;
+    margin-bottom: 1.5rem;
+    padding: 0 1rem;
+    line-height: 150%;
+}
+
+.qoute{
+  color:#218bd7
+}
+
+.para{
+  margin-top:.5rem;
+  margin-bottom: .5rem;
+  font-size: 1.1em;
+}
+
+
+@media screen and (max-width:600px){
+  .header {
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   }
+
+   .header__link{
+    margin: .9rem 1.5rem 0 .5rem;
+    font-size: 1.5em;
+    font-weight:bold;
+    color:white;
+  }
+
+}
+
+
+@media screen and (max-width:390px){
+  body{
+    font-size: .9em;
+  }
+
+  .header__name{
+    line-height: 1;
+  }
+
+  .header__link{
+    font-size:1.3em;
+  }
+  .nav{
+    margin-left: .2em;
+  }
+  .nav__link{
+    font-size: .8em;
+    /* margin-left:.1rem; */
+  }
+       
+}
+
+
+
+
+

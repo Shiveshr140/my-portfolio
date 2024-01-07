@@ -1,0 +1,266 @@
+
+
+.body-skills{
+  color: white;
+  background-color: #494747;
+}
+
+.header-skills{
+  margin-bottom: 1rem;
+  border-bottom: 2px solid white;
+  background-color: #494747;
+}
+
+.main-skills{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 2em;
+    margin-right:2em;
+}
+
+.technical__skills{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2em; ;
+    margin: 0 auto 1rem auto;
+  }
+
+  .skill-tech, .skill-exp {
+    align-self: center;
+    border: 1px solid white;
+    box-shadow: 0px 0px 1px 1px aliceblue;
+    padding: .4rem;
+    color: #CCCCCC
+  }
+
+  .skills{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    width:100%;
+    margin-bottom: 1rem;
+  }
+
+  
+
+  .div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 auto;
+    padding: 1em;
+    border: 2px solid black;
+    margin-bottom: 1em;
+    box-shadow: 4px 4px 0 0 rgb(41, 23, 57);
+    /* background-color: #494747; */
+    /* color:whitesmoke */
+    background-color: white;
+    color:black
+  
+  }
+
+  .skills-head{
+    align-self:center;
+    margin-top:0;
+    margin-bottom:0;
+    font-size:1.1em;
+  }
+  
+  .skills span{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left:1.75rem;;
+  }
+  
+  .skills p {
+    font-size: 1em;
+  }
+  
+  .fa-brands{
+    font-size: 1.5em;
+    width:1em;
+    height:1em;
+    
+  }
+  
+ 
+ .ejs{
+    display:flex;
+    color:#e52368;
+    font-size: 1em;
+    margin-top:0;
+  }
+
+
+
+ .back-end span{
+    margin-right: 1.5rem;
+ } 
+
+.templating span{
+    margin-right: 2em;
+}
+
+.database span{
+    margin-right: 2em;
+}
+
+.progress{
+  display:flex;
+  margin:0 auto 2rem auto;
+  width:90%;
+ 
+}
+
+.graph{
+  margin: .5rem .75rem 1rem .75rem;
+  height:180px;
+}
+
+.outer{
+  position: relative;
+  height:160px;
+  width:160px;
+  border-radius:50%;
+  padding:20px;
+  box-shadow: 6px 6px 10px -1px rgba(0,0,0,.15),
+             -6px -6px 10px -1px rgba(255,255,255,.7)
+}
+
+.inner{
+  height:120px;
+  width:120px;
+  border-radius:50%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+              inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+              -.15px -.15px 0px rgba(255, 255, 255, 1),
+              .15px .15px 0px rgba(0, 0, 0, 0.15),
+              0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
+
+circle{
+    fill:none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+}
+
+svg{
+    position:relative;
+    top:-160px;
+    left:0px;
+}
+
+.per{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width:1040px) {
+  .technical__skills{
+      display:flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
+    }
+  
+}
+
+@media screen and (max-width: 540px ){
+  .skills{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      width:100%;
+      margin-bottom: 1rem;
+      margin-right: 1em;
+      margin-left: .5rem;
+    }
+  
+}
+
+@media screen and (max-width: 335px ){
+  .skills{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      width:100%;
+      margin-bottom: 1rem;
+      margin-right: .5em;
+      margin-left: .5rem;
+    }
+    .database, .templating{
+      display:grid;
+      grid-template-columns: 1fr;
+      width:100%;
+      margin-bottom: 1rem;
+      margin-right: .5em;
+      margin-left: .5rem;
+    }
+  
+}
+
+
+@media screen and (max-width:1150px) {
+  .progress{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    width:90%;
+  }
+  
+}
+
+@media screen and (max-width:850px) {
+  .progress{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  
+}
+
+@media screen and (max-width:650px) {
+  .progress{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  
+}
+
+
+
+
+@media screen and (max-width:550px) {
+   .skills-tech, .skills-exp{
+    font-size: 1.3em;
+  }
+  
+}
+
+@media screen and (max-width:450px) {
+  .progress{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  .skills-tech, .skills-exp{
+    font-size: 1.3em;
+  }
+  
+}
+
+@media screen and (max-width:350px) {
+  .skills-tech, .skills-exp{
+   font-size: 1.1em;
+ }
+ 
+}
+
+
+
+
