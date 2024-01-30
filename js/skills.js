@@ -29,7 +29,7 @@ const hc = document.querySelector(".graph-htmlcss")
 hc.innerHTML = progress(85, 'circle-hc')
 
 const rt = document.querySelector(".graph-react")
-rt.innerHTML = progress(60, "cicle-react")
+rt.innerHTML = progress(80, "cicle-react")
 
 const nd = document.querySelector(".graph-node")
 nd.innerHTML = progress(85, 'cicle-node')
