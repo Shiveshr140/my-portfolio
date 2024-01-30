@@ -1,4 +1,12 @@
 const projects = [
+     {
+      "name": "InfoShop Admin Dashboard using React",
+      "thumb": "dashboard.png",
+      "hero": "dashboard-hero.png",
+      "categories": ["react", "css", "material ui"],
+      "slug": "dashboard",
+      "prod": "https://harmonious-dusk-70f970.netlify.app/"
+  },
 
     {
       "name": "E-Commerce Web App with Nodejs and Express",
