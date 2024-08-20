@@ -1,22 +1,52 @@
 const projects = [
-     {
-      "name": "InfoShop Admin Dashboard using React",
-      "thumb": "dashboard.png",
-      "hero": "dashboard-hero.png",
-      "categories": ["react", "css", "material ui"],
-      "slug": "dashboard",
-      "prod": "https://harmonious-dusk-70f970.netlify.app/"
-  },
 
     {
-      "name": "E-Commerce Web App with Nodejs and Express",
-      "thumb": "e-comm.png",
-      "hero": "e-comm-hero.png",
-      "categories": ["nodejs", "express", "html", 'css'],
-      "slug": "e-comm",
-      "prod": "http://mynodeapp.eba-mxt3bqgp.ap-south-1.elasticbeanstalk.com/"
-  },
+        "name": "InfoShop Admin Dashboard Web App with ReactJS and Material UI",
+        "thumb": "infoshop.png",
+        "hero": "infoshop-hero.png",
+        "categories": ["reactjs", "material ui", "tailwind"],
+        "slug": "infoshop",
+        "prod": "https://flourishing-hamster-19573b.netlify.app/"
+    },
 
+    {
+        "name": "Fast React Pizza Web App using Redux, RESTful API and Tailwind CSS",
+        "thumb": "pizzareact.png",
+        "hero": "pizzareact-hero.png",
+        "categories": ["reactjs", "api", "tailwind"],
+        "slug": "pizzareact",
+        "prod": "https://fast-react-pizza-shiv140.netlify.app/"
+    },
+
+    {
+        "name": "E-Commerce Web App with Nodejs and Express",
+        "thumb": "e-comm.png",
+        "hero": "e-comm-hero.png",
+        "categories": ["nodejs", "express", "html", 'css'],
+        "slug": "e-comm",
+        "prod": "http://mynodeapp.eba-mxt3bqgp.ap-south-1.elasticbeanstalk.com/"
+    },
+  
+
+    {
+        "name": "WorldWise Web App with ReactJS, Api and Leaflet Js ",
+        "thumb": "worldwise.png",
+        "hero": "worldwise-hero.png",
+        "categories": ["reactjs", "api", "leaflet js"],
+        "slug": "worldwise",
+        "prod": "https://worldwisenow.netlify.app/"
+    },    
+    
+    {
+        "name": "usePopcorn Web App with ReactJS and OMDB API",
+        "thumb": "usePopcorn.jpg",
+        "hero": "usePopcorn-hero.png",
+        "categories": ["reactjs", "omdb api", "html", 'css'],
+        "slug": "usePopcorn",
+        "prod": "https://usepopcornshiv140.netlify.app/"
+    },
+
+    
     {
       "name": "Movie Fight App with JavaScript, HTML and CSS",
       "thumb": "movie-fight.png",
@@ -64,7 +94,6 @@ const projects = [
   }
 
 ]
-
 
 function projectsSection() {
     const div = document.querySelector('.projects');
